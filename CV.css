@@ -36,6 +36,26 @@ align-content: center;
 
 /* end wireframe */
 /* start box left */
+
+/* about me section */
+.hobby-about-me{
+    font-size:10px;
+    color:black;
+}
+.tittle-about-me{
+    font-size:blue;
+    color:15px;
+}
+.about-me-from{
+    font-size:17px;
+    color:green;
+}
+.about-me-contact{
+    font-size:16px;
+    color:orange;
+}
+
+/* end about me section */
 .title-full-page{
     font-size:30px;
     align-self: center;
@@ -53,6 +73,9 @@ align-content: center;
 /* end box left */
 
 /* start box right */
+.section{
+    margin-top:10px;
+}
 
 .section-title{
 font-size:25px;
