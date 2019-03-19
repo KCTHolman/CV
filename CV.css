@@ -26,9 +26,32 @@ padding-left:10px;
 }
 
 .text-home{
-    padding-left:54px;
+    padding-left:43px;
 }
 
+
+.box-right{
+    width:70%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    margin-right:15px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left:15px;
+}
+.contact-info{
+    margin-top:80px;
+}
+
+/* end wireframe */
+/* start box right */
+
+.image-koen{
+    border-radius: 50%;
+    margin:19px;
+}
 .info-item{
     font-size:17px;
     margin-top:9px;
@@ -46,18 +69,7 @@ padding-left:10px;
     margin-right:20px;
     font-size:30px;
 }
-.box-right{
-    width:70%;
-    height:100%;
-    display: flex;
-    flex-direction: column;
-    align-self:center;
-    margin-right:15px;
-
-    margin-left:15px;
-}
-
-/* end wireframe */
+/* end box right */
 /* start box left */
 
 /* about me section */
@@ -97,7 +109,7 @@ padding-left:10px;
 
 /* start box right */
 .section{
-    margin-top:25px;
+    margin-top:50px;
 }
 
 .section-title{
@@ -137,5 +149,26 @@ font-weight: 900;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left:10px;
     margin-top:5px;
+}
+
+/* skills-section */
+.soft-skills-section{
+margin-bottom: 20px;
+}
+.title-skills{
+font-size:19px;
+}
+.soft-skills{
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+}
+.skill-item{
+    background: #296073;
+    border-radius: 5%;
+    color:white;
+    padding:5px;
+    margin:3px;
+
 }
 /* end box right */
