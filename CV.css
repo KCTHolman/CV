@@ -6,31 +6,54 @@ body{
 .container{
     width: 21cm;
     height: 29.7cm;
-    padding: 2cm;
-    margin: 1cm auto;
+
     border: 1px #D3D3D3 solid;
     border-radius: 5px;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
+
 }
 .box-left{
-width:30%;
+width: 35%;
 height:100%;
-background-color: mediumaquamarine;
+background-image: linear-gradient(to right bottom, #296073, #2b6a7f, #2e748b, #307e97, #3288a4, #4e94b2, #66a1c0, #7dadcd, #a6bfdb, #c9d3e7, #e6e8f3, #ffffff);
 display: flex;
 flex-direction: column;
 align-content: center;
+padding-left:10px;
 }
 
+.text-home{
+    padding-left:54px;
+}
 
+.info-item{
+    font-size:17px;
+    margin-top:9px;
+}
+
+.fas{
+    margin-right:20px;
+    font-size:30px;
+}
+.far{
+    margin-right:20px;
+    font-size:30px;
+}
+.fab{
+    margin-right:20px;
+    font-size:30px;
+}
 .box-right{
     width:70%;
     height:100%;
     display: flex;
     flex-direction: column;
     align-self:center;
+    margin-right:15px;
+
     margin-left:15px;
 }
 
@@ -63,7 +86,7 @@ align-content: center;
 .first-box{
     width: 100%;
     height: 20%;
-    background-color: aqua;
+
 
 }
 .item-content{
@@ -74,7 +97,7 @@ align-content: center;
 
 /* start box right */
 .section{
-    margin-top:10px;
+    margin-top:25px;
 }
 
 .section-title{
@@ -85,12 +108,13 @@ font-size:25px;
 .type-section{
     font-size: 30px;
     font-family: 'Puritan', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
+    color:#296073;
 }
 .education-item{
     display: flex;
     flex-direction: column;
-    margin-top:10px;
+    margin-top:15px;
 }
 .item-above{
     display: flex;
@@ -106,9 +130,12 @@ font-weight: 900;
 
 }
 .undertitle{
-    color: grey;
+    color: #3596B5;
+    margin-left:10px;
 }
 .description{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:10px;
+    margin-top:5px;
 }
 /* end box right */
