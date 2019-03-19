@@ -52,19 +52,27 @@ align-content: center;
 /* end box left */
 
 /* start box right */
-.section{
 
+.section-title{
+font-size:25px;
 }
 .education-item{
-
+    display: flex;
+    flex-direction: column;
+}
+.item-above{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .year{
-
+font-weight: 900;
 }
 .title{
 
 }
 .undertitle{
+    color: grey;
 
 }
 /* end box right */
